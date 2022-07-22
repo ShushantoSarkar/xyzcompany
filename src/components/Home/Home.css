@@ -1,0 +1,385 @@
+.component1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.component1Text {
+  margin: auto;
+  width: 40%;
+  padding-left: 10%;
+}
+
+.component1Text p {
+  color: #9edcf7;
+  font-size: 15px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.component1Text h1 {
+  font-size: 25px;
+  padding-bottom: 20px;
+  font-weight: 800;
+}
+
+.component1Text h1 span {
+  color: #ff4532;
+}
+
+.component1Button {
+  background-color: #006a98;
+  color: white;
+  font-size: 10px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+.component1TextFlex {
+  display: flex;
+}
+
+.callButton {
+  display: flex;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.callButton p {
+  font-size: 10px;
+  width: 100%;
+  color: #ff4532;
+  padding-left: 5px;
+  padding-top: 20px;
+}
+
+.callButton img {
+  width: 20%;
+}
+
+.component1Img img {
+  width: 100%;
+  height: 110%;
+}
+
+.component1Img {
+  width: 50%;
+}
+
+.component2{
+
+}
+
+.component3 {
+  position: relative;
+  text-align: left;
+  margin-top: 200px;
+}
+
+.component3 img {
+  width: 100%;
+}
+
+.component3Text {
+  position: absolute;
+  right: 7%;
+  top: 8%;
+  width: 40%;
+  height: 60%;
+  background-color: white;
+  padding: 5%;
+  border-radius: 30px;
+}
+
+.component3Text span {
+  color: #ff4532;
+}
+
+.component3Text span + span {
+  color: #006a98;
+}
+
+.component3Text h1 {
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+.component3Text p {
+  font-size: 10px;
+}
+
+.component5 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.component5 h1 {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.component5 p {
+  margin: auto;
+}
+
+.component5 h1 span {
+  color: #ff4532;
+}
+
+.component5 h1 span + span {
+  color: #9edcf7;
+}
+
+.component6 {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  position: relative;
+}
+
+.component6Background {
+  background-color: #fafafa;
+  position: absolute;
+  width: 100%;
+  height: 86%;
+  top: 30px;
+  z-index: -1;
+}
+
+.component6 form {
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px 2px#999999;
+  background-color: white;
+  padding: 5%;
+  font-size: 13px;
+  width: 40%;
+  max-width: 400px;
+  margin: auto;
+  margin-left: 5%;
+}
+
+.component6 form input {
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: #fafafa;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+  outline: none;
+  font-size: 15px;
+}
+
+.component6 form input:last-child {
+  background-color: #006a98;
+  border-radius: 40px;
+  width: 30%;
+  font-size: 13px;
+  padding: 10px 0px;
+  color: white;
+  border: none;
+}
+
+.component6Text {
+  margin: auto;
+  width: 350px;
+}
+
+.component6Text h3 {
+  background-color: #ff4532;
+  border-radius: 20px 20px 20px 0px;
+  font-size: 15px;
+  color: white;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+}
+
+.component6TextItem {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.component6TextItem img {
+  width: 40px;
+}
+
+.component6TextItem p {
+  margin: auto;
+  font-size: 10px;
+}
+
+.location p {
+  margin-left: 20px;
+}
+
+.call p {
+  margin-left: 20px;
+}
+
+.email p {
+  margin-left: 20px;
+}
+
+.footer {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 250px;
+  margin-bottom: 50px;
+  color: #999999;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.footer div {
+  margin-right: 20px;
+}
+
+.footer h4 {
+  color: black;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.footerComponent1 {
+  max-width: 35%;
+  margin: auto 0px;
+}
+
+.footerComponent1 p {
+  margin-top: 20px;
+}
+
+.footerLogo {
+  width: 40px;
+}
+
+.footerComponent4 img {
+  margin-right: 10px;
+  width: 25px;
+}
+
+.copyright {
+  color: #999999;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 10px;
+}
+
+.copyright p {
+  margin: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .component1Text p {
+    font-size: 7px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+  }
+
+  .component1Text h1 {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+
+  .component1TextFlex {
+    display: block;
+  }
+
+  .component1Button {
+    font-size: 7px;
+    padding: 5px 10px;
+  }
+
+  .callButton {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .callButton img {
+    width: 25px;
+  }
+
+  .callButton p {
+    font-size: 7px;
+    margin-top: -13px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .component3 img {
+    display: none;
+  }
+  .component3Text {
+    width: 90%;
+    top: 6%;
+    right: 0%;
+    border-radius: 0px;
+  }
+  .component3Text h1 {
+    font-size: 20px;
+  }
+  .component3Text p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .component3Text p {
+    font-size: 12px;
+  }
+  .component3Text h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .component1Text p {
+    font-size: 25px;
+  }
+
+  .component1Text h1 {
+    font-size: 50px;
+  }
+
+  .component1Button {
+    font-size: 15px;
+  }
+
+  .callButton p {
+    font-size: 15px;
+  }
+
+  .component3Text p {
+    font-size: 15px;
+  }
+  .component3Text h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .component3Text p {
+    font-size: 17px;
+  }
+  .component3Text h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .component3Text p {
+    font-size: 23px;
+  }
+  .component3Text h1 {
+    font-size: 35px;
+  }
+}
+

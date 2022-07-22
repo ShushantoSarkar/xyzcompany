@@ -1,0 +1,33 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5%;
+  background-color: #FAFAFA;
+}
+
+.navItemStyle {
+  margin-left: 20px;
+}
+
+.navItems {
+  margin: auto 5%;
+}
+
+.Navbar img+img{
+  width: 8%;
+}
+
+@media screen and (max-width:550px){
+  .navItemStyle{
+    font-size: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width:1200px){
+  .navItemStyle{
+    font-size: 30px;
+    margin-left: 30px;
+  }
+}
+
