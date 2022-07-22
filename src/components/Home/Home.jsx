@@ -28,14 +28,14 @@ function Home() {
       </div>
 
       <div className="component2 slideShow">
-        <Slideshow/>
+        <Slideshow />
       </div>
 
       <div className="component3">
         <img src="../Data/Group 9.jpg" alt="" />
         <div className="component3Text">
           <h1>
-            THERE ARE MANY <span>VARIATIONS</span> OF PASSAGES OF{" "}
+            THERE ARE MANY <span>VARIATIONS</span> OF PASSAGsES OF{" "}
             <span>LOREM IPSUM</span> AVAILABLE
           </h1>
           <p>
